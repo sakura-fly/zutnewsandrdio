@@ -32,5 +32,19 @@ public class NewsAct {
 
     }
 
+    public List<News> refreshList(){
+        List<News> l = new ArrayList<>();
+        l.add(new News("刷新新闻","" + Math.random(),"瑞兹","666-06-06"));
+        l.add(new News("刷新新闻","" + Math.random(),"瑞兹","666-06-06"));
+        l.add(new News("刷新新闻","" + Math.random(),"瑞兹","666-06-06"));
+        l.add(new News("刷新新闻","" + Math.random(),"瑞兹","666-06-06"));
+        l.add(new News("刷新新闻","" + Math.random(),"瑞兹","666-06-06"));
+
+
+        return l;
+
+
+    }
+
 
 }
